@@ -1,0 +1,5 @@
+{
+  "name": "FlowMaint Manager",
+  "description": "A complex Work Order workflow manager with an infinite canvas, minimap navigation, and AI-assisted workflow generation.",
+  "requestFramePermissions": []
+}
