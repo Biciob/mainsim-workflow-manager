@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { WorkflowGenerationResponse } from "../types";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = import.meta.env.VITE_API_KEY || '';
 const ai = new GoogleGenAI({ apiKey });
 
 const workflowSchema: Schema = {
